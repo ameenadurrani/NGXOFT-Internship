@@ -12,6 +12,7 @@
     console.log("Press 5 to find power: ");
     console.log("Press 6 to find modulus: ");
     console.log("Press 7 to find quit: ");
+   console.log("________________________");
  }
  
 const sum = (a,b) =>
