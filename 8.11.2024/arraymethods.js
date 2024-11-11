@@ -24,3 +24,28 @@ marks.splice(2,3,102,234,2367,453);
     //the other values will be added in the array on the index you provided after deleting the no of values you said
     // it will modify the original array   
 console.log("Array after splicing: ",marks);
+
+//for each loop
+let num = [1,2,3,3];
+num.forEach((element)=>
+{
+    console.log(element*element);
+})
+
+//array from(used to create array from any other object)
+let name = "Ameena";
+let arr = Array.from(name);
+console.log(arr);
+
+//for......of loop
+for(let i of num)
+{
+    console.log(i);
+}
+
+//for...in loop
+for(let i in num)
+{
+    console.log(i);        //gives the key(index) in case of arrays(to access element using for in loop use num[i])
+}
+
